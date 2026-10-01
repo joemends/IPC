@@ -1,12 +1,12 @@
 :root {
   --navy: #A7333B;
   --blue: #A7333B;
-  --sky: #eaf5ff;
+  --sky: #fcdddf;
   --gold: #f5b942;
   --ink: #151332;
   --muted: #667085;
-  --line: #e7edf3;
-  --soft: #f6f9fc;
+  --line: #ffe2e3;
+  --soft: #fff1f1;
   --shadow: 0 18px 50px rgba(16, 42, 67, 0.1);
 }
 
@@ -197,7 +197,7 @@ a {
 }
 
 .hero .eyebrow {
-  color: #a9ddff;
+  color: #ffffff;
 }
 
 .hero h1 {
@@ -902,9 +902,9 @@ a {
   margin: 12px 0 20px;
 }
 
-.map-placeholder {
+.map-placeholder iframe{
   height: 230px;
-  border-radius: 18px;
+  border-radius: 16px;
   background: linear-gradient(135deg, #d9edf9, #b8d8e9);
   display: flex;
   flex-direction: column;
@@ -940,7 +940,7 @@ a {
 }
 
 .footer .brand small {
-  color: #8ed0f8;
+  color: #fcfdfe;
 }
 
 .footer p {
@@ -1017,6 +1017,12 @@ a {
 
   .hero {
     min-height: 590px;
+  }
+
+  .hero-content {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
   }
 
   .info-grid,
