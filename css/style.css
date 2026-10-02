@@ -1020,9 +1020,7 @@ a {
   }
 
   .hero-content {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
+    text-align: center
   }
 
   .info-grid,
